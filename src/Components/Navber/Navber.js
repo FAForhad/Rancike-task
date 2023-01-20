@@ -3,7 +3,7 @@ import './Navber.css'
 
 const Navber = () => {
     return (
-        <div className='px-0 lg:px-10 lg:py-10'>
+        <div className='px-0 lg:px-10 py-10'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -20,9 +20,9 @@ const Navber = () => {
 
                     </div>
                     <div id='ellispse' className='mx-14 lg:m-0'></div>
-                    <div className='pl-12 ml-3 uppercase font-extrabold text-4xl'>
+                    <div className='pl-12 ml-3 uppercase font-extrabold text-4xl cursor-pointer'>
                         <h2 style={{ color: '#072C51' }} className="flex">DEC
-                            <div className='origin-center -rotate-12'>
+                            <div className='origin-center -rotate-12 hover:origin-center hover:rotate-0'>
                                 E
                             </div>
                             NT
