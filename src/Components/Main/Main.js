@@ -3,35 +3,50 @@ import React from 'react';
 const Main = () => {
     return (
         <div className='px-10 pb-10'>
-            < div style={{ border: '3px solid #0370DD', height: '1029px' }} className="rounded-3xl" >
-                <div className="flex lg:flex-row">
-                    <div>
-                        <div className="card-body">
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Email</span>
-                                </label>
-                                <input type="text" placeholder="email" className="input input-bordered" />
-                            </div>
-                            <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Password</span>
-                                </label>
-                                <input type="text" placeholder="password" className="input input-bordered" />
-                                <label className="label">
-                                    <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                                </label>
-                            </div>
-                            <div className="form-control mt-6">
-                                <button className="btn btn-primary">Login</button>
-                            </div>
-                        </div>
+            < div style={{ border: '3px solid #0370DD', height: '1029px' }} className="rounded-3xl  flex-reverse lg:flex px-14" >
+                <form class="flex-auto lg:w-2/5">
+                    <h1 className='text-4xl font-bold my-9 text-start' >Education <span className='font-extrabold ' style={{ color: '#FF5630' }} >*</span></h1>
+                    <div className="form-control mr-14 my-8">
+                        <label className="label">
+                            <h1 className="label-text text-lg my-1 font-medium">Year of passing <span className='font-bold ' style={{ color: '#FF5630' }}>*</span> </h1>
+                        </label>
+                        <input type="text" placeholder="2024" className="input input-bordered text-2xl" required style={{ border: '2px solid #999999' }} />
+                        <label className="text-end">
+                            <span className="label-text text-lg my-1 font-medium" style={{ color: '#707784' }}>0/100</span>
+                        </label>
                     </div>
-                    <div>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
-                        <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+                    <div className="form-control mr-14 my-8">
+                        <label className="label">
+                            <h1 className="label-text text-lg my-1 font-medium">Region <span className='font-bold ' style={{ color: '#FF5630' }}>*</span> </h1>
+                        </label>
+                        <input type="text" placeholder="Jalandhar" className="input input-bordered text-2xl" required style={{ border: '2px solid #999999' }} />
+                        <label className="text-end">
+                            <span className="label-text text-lg my-1 font-medium" style={{ color: '#707784' }}>0/100</span>
+                        </label>
                     </div>
+                    <div className="form-control mr-14 my-8">
+                        <label className="label">
+                            <h1 className="label-text text-lg my-1 font-medium">College Name <span className='font-bold ' style={{ color: '#FF5630' }}>*</span> </h1>
+                        </label>
+                        <input type="text" placeholder="NIT Jalandhar" className="input input-bordered text-2xl" required style={{ border: '2px solid #999999' }} />
+                        <label className="text-end">
+                            <span className="label-text text-lg my-1 font-medium" style={{ color: '#707784' }}>0/100</span>
+                        </label>
+                    </div>
+                    <div className="form-control mr-14 my-8">
+                        <label className="label">
+                            <h1 className="label-text text-lg my-1 font-medium">Describe College<span className='font-bold ' style={{ color: '#FF5630' }}>*</span> </h1>
+                        </label>
+                        <textarea type="text" placeholder="NITJ is a college of national importance and students can get admission into this college through the JEE mains entrance exam and then the JoSSA counselling ...." required className='rounded-lg text-2xl' style={{ border: '2px solid #999999', padding: '16px 24px', height: '197px' }} />
+                        <label className="text-end">
+                            <span className="label-text text-lg my-1 font-medium" style={{ color: '#707784' }}>0/200</span>
+                        </label>
+                    </div>
+                    <div className=' font-bold' style={{ background: '#0370DD', borderRadius: '8px', width: '172px' }}>
+                        <button style={{ padding: '16px 40px', }}>Generate</button>
+                    </div>
+                </form>
+                <div class="flex-auto lg:w-3/5 bg-blue-900">
                 </div>
             </ div>
         </div >
