@@ -36,6 +36,7 @@ const Main = () => {
                     <div className="form-control mx-3 lg:mr-14 lg:my-6">
                         <label className="label">
                             <h1 className="label-text text-lg my-1 font-medium">Describe College <span className='font-bold ' style={{ color: '#FF5630' }}>*</span> </h1>
+                            <h2 className='font-medium text-blue-500 hover:underline'>Need help ?</h2>
                         </label>
                         <textarea type="text" placeholder="NITJ is a college of national importance and students can get admission into this college through the JEE mains entrance exam and then the JoSSA counselling ...." required className='rounded-lg text-2xl' style={{ border: '2px solid #999999', padding: '16px 24px', height: '197px' }} />
                         <label className="text-end">
