@@ -4,7 +4,7 @@ const Main = () => {
     return (
         <div className='px-2 lg:px-10 pb-10'>
             < div style={{ height: '1029px' }} className="rounded-3xl lg:border-solid lg:border-blue-500 lg:border-4 flex-reverse lg:flex lg:px-14" >
-                <form class="flex-auto lg:w-2/5">
+                <form class="flex-auto lg:w-2/5 lg:border-r lg:border-gray-700">
                     <h1 className='text-4xl font-bold mx-3 lg:my-9 text-start' >Education <span className='font-extrabold ' style={{ color: '#FF5630' }} >*</span></h1>
                     <div className="form-control mx-3 lg:mr-14 lg:my-6">
                         <label className="label">
